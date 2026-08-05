@@ -42,33 +42,26 @@
     
 
 
-def selection_sort(arr):
-    for i in range(len(arr)):
-        m = i
-        for j in range(i + 1, len(arr)):
-            if arr[j][1] < arr[m][1]:
-                m = j
-        arr[i], arr[m] = arr[m], arr[i]
-    return arr
+# def selection_sort(arr):
+#     for i in range(len(arr)):
+#         m = i
+#         for j in range(i + 1, len(arr)):
+#             if arr[j][1] < arr[m][1]:
+#                 m = j
+#         arr[i], arr[m] = arr[m], arr[i]
+#     return arr
 
 
-oquvchilar = [
-    ["Bunyod", 85],
-    ["Mansur", 62],
-    ["Abdullo", 98],
-    ["Bekzod", 71],
-    ["Hasan", 90]
-]
+# oquvchilar = [
+#     ["Bunyod", 85],
+#     ["Mansur", 62],
+#     ["Abdullo", 98],
+#     ["Bekzod", 71],
+#     ["Hasan", 90]
+# ]
 
-selection_sort(oquvchilar)
+# selection_sort(oquvchilar)
 
-print(oquvchilar)
-print("Eng kichik ball:", oquvchilar[0][0], "-", oquvchilar[0][1])
-print("Eng katta ball:", oquvchilar[-1][0], "-", oquvchilar[-1][1])
-
-
-
-
-
-
-3
+# print(oquvchilar)
+# print("Eng kichik ball:", oquvchilar[0][0], "-", oquvchilar[0][1])
+# print("Eng katta ball:", oquvchilar[-1][0], "-", oquvchilar[-1][1])
